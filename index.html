@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Orbitron:wght@400;500&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5306e3a0a6.js" crossorigin="anonymous" defer></script>
     <title>Document</title>
 </head>
 <body>
@@ -13,24 +17,33 @@
         <input type="text" class="calculator__screen" value="0" disabled />
         <div class="calculator__keys">
 
-            <button class="calculator__number-symbol ac" value="AC">AC</button>
-            <button class="calculator__number-symbol" value="/">&divide;</button>
-            <button class="calculator__number-symbol" value="*">&times;</button>
-            <button class="calculator__number-symbol" value="-">-</button>
-            <button class="calculator__number-symbol-plus" value="+">+</button>
+            <button class="calculator__number-symbol btn ac" value="clear">AC</button>
+            <button class="calculator__number-symbol btn erase" value="erase"><i class="fa-solid fa-delete-left"></i></button>
+            <button class="calculator__number-symbol btn " value="%">%</button>
+            
+            <button class="calculator__number-symbol btn" value="*">&times;</button>
 
-            <button class="calculator__number-button" value="7">7</button>
-            <button class="calculator__number-button" value="8">8</button>
-            <button class="calculator__number-button" value="9">9</button>
-            <button class="calculator__number-button" value="4">4</button>
-            <button class="calculator__number-button" value="5">5</button>
-            <button class="calculator__number-button" value="6">6</button>
-            <button class="calculator__number-button" value="1">1</button>
-            <button class="calculator__number-button" value="2">2</button>
-            <button class="calculator__number-button" value="3">3</button>
-            <button class="calculator__number-button" value="0">0</button>
-            <button class="calculator__number-button" value=".">.</button>
-            <button class="calculator__number-button" value="=">=</button>
+
+
+            <button class="calculator__number-button btn" value="7">7</button>
+            <button class="calculator__number-button btn" value="8">8</button>
+            <button class="calculator__number-button btn" value="9">9</button>
+            <button class="calculator__number-symbol btn" value="/">&divide;</button>
+
+            <button class="calculator__number-button btn" value="4">4</button>
+            <button class="calculator__number-button btn" value="5">5</button>
+            <button class="calculator__number-button btn" value="6">6</button>
+            <button class="calculator__number-symbol btn" value="-">-</button>           
+           
+            <button class="calculator__number-button btn" value="1">1</button>
+            <button class="calculator__number-button btn" value="2">2</button>
+            <button class="calculator__number-button btn" value="3">3</button>
+            <button class="calculator__number-symbol btn" value="+">+</button>
+
+            <button class="calculator__number-button btn" value="e">exp</button>
+            <button class="calculator__number-button btn" value="0">0</button>
+            <button class="calculator__number-button btn" value=".">.</button>
+            <button class="calculator__number-symbol btn equal" value="=">=</button>
             
 
         </div>
