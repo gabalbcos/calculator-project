@@ -1,0 +1,40 @@
+body{
+    box-sizing: border-box;
+}
+
+.calculator {
+    height: 300px;   
+    width: 250px;
+    padding: 20px;
+    background-color: grey;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-content: center;
+
+}
+
+.calculator__keys{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.calculator__screen{
+    height: 20px;
+    width: 225px;
+    border: 2px solid black;
+    
+}
+
+.calculator__number-button-equal{
+ grid-area: 2/ 4 / 6 / 5;
+ height: 100%;
+}
+
+.calculator__number-symbol{
+
+}
