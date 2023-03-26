@@ -4,7 +4,7 @@ let operation = '';
 
 const buttonSymbol = document.querySelectorAll('.calculator__number-symbol');
 const buttonNumber = document.querySelectorAll('.calculator__number-button');
-const screenNumber = document.querySelector('.calculator__screen')
+const screenNumber = document.querySelector('.calculator__screen-actual')
 const clearButton = document.querySelector('.ac');
 
 
