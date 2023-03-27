@@ -68,7 +68,10 @@
     font-size: 25px;
     text-align: center;
 }
-.calculator__number-symbol{
+.calculator__number-symbol,
+.percentual,
+.erase
+{
 
     color: rgb(230, 97, 9);
     font-weight: 800;
@@ -78,4 +81,5 @@
 .equal{
     background-color: rgb(230, 97, 9);
     color: white;
+    font-weight: 800;
 }
