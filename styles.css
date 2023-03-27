@@ -2,8 +2,10 @@
     box-sizing: border-box;
     text-align: center;
     font-family: 'Allerta Stencil', sans-serif;
+}
 
-
+body{
+    background-color: rgb(58, 58, 92);
 }
 
 .calculator {
@@ -83,3 +85,13 @@
     color: white;
     font-weight: 800;
 }
+
+footer{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%);
+    align-content: center;
+    color: white;
+}
+
